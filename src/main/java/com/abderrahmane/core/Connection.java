@@ -5,6 +5,7 @@ import java.io.PrintStream;
 import java.net.Socket;
 import java.util.Scanner;
 
+@SuppressWarnings("unused")
 public class Connection {
     public int threadId;
     private Socket socket;

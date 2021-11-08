@@ -53,6 +53,8 @@ public class Client {
                 System.out.println("Plus !");
             }
         }
+
+        input.close();
     }
 
     private Socket connect () {
